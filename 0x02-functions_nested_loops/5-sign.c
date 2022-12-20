@@ -4,7 +4,7 @@
  * Main - Entry point 
  * print_sign -> prints sign based on condition
  * @n: argument passed
- * Return: 1, 0 -1
+ * Return: 1, 0 _
  */
 
 int print_sign(int n)
