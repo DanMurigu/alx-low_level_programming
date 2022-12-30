@@ -3,9 +3,9 @@
 /**
  * Main - Entry point
  * print_last_digit -> prints the last digit
- * @n: the passed args
- * int print_last_digit(int n)
- */
+ * @n: the int to extract the last digit from
+ * Return: value of the last digit
+ **/
 
 int print_last_digit(int n)
 {
@@ -13,8 +13,14 @@ int print_last_digit(int n)
 
 	if (n < 0)
 		n = -n;
-	return (n % 10);
+
 	x = n % 10;
-	_putchar(x + '0');
+
+	if (x < 10)
+
+		x = -x;
+
+	_putchar(a + '0');
+
+
 	return (x);
-}
