@@ -2,14 +2,14 @@
 
 /**
  *Main - entry point
- * jack_bauer -> prints every minute of the day of jack baur
+ * jack_bauer - prints every minute of the day of jack baur
  */
 void jack_bauer(void)
 {
 	int i, j;
 
 	i = 0;
-	
+
 	while (i < 24)
 	{
 		j = 0;
